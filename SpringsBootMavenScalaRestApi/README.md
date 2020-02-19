@@ -12,7 +12,7 @@ mvn spring-boot:run
 # Run and Access REST API                                                                                
 
 # Go to Project folder                                                                    
-java -jar target\<jarfileName>.jar                                                                                   
+java -jar target/<jarfileName>.jar                                                                                   
 
 # Access REST API URL                                                 
 ###Please use credential root/root                                                                                                                  
