@@ -1,4 +1,4 @@
-# Springs Scala SPARK Maven Rest API                                                             
+# SPARK Scala Maven AS Normal Jar                                                          
 Rest API Services project in scala for Springs boot, Maven, Spring Security
 
 This sample application illustrates how to use Spring with scala and Spark 
@@ -19,17 +19,21 @@ java -jar target/jarfileName.jar
 http://localhost:8080/api/users
 
 
-#####################################################################
+# spark-submit                                                                                                           
+# spark-submit worked fine for normal maven scala jar                                                                              
+                                   
+spark-submit --class com.pkumar.scala.spark.app.main.KumarSparkAppDemo --master local[*]  E:\developerWork\devSpark\SpringsBootScalaSparkApp\target\pkumar-scala-spark-demo-0.0.1-SNAPSHOT.jar                                                                      
 
-----------spark-submit----CMD for Jar with scala maven-------
-spark-submit --class com.pkumar.scala.spark.app.main.KumarSparkAppDemo --master local[*]  E:\developerWork\devSpark\SpringsBootScalaSparkApp\target\pkumar-scala-spark-demo-0.0.1-SNAPSHOT.jar
------------------------------------------------------------------------
+                        
 
 #################################################################################################################
 ----------------------------------------------------------------------------
-spark-submit CMD  worked fine  for maven scala project :----
-spark-submit --class com.pkumar.scala.spring.rest.KumarSparkAppDemo --master local[*]  E:\developerWork\devSpark\SpringsBootScalaSparkApp\target\pkumar-scala-spark-demo-0.0.1-SNAPSHOT.jar
+# spark-submit CMD                                                            
+                                  
+spark-submit --class com.pkumar.scala.spring.rest.KumarSparkAppDemo --master local[*]  E:\developerWork\devSpark\SpringsBootScalaSparkApp\target\pkumar-scala-spark-demo-0.0.1-SNAPSHOT.jar                              
 
+
+# spark-submit-Result output                                                                   
 ----------------------------spark-submit-Result output-----------------------------------
 E:\developerHome\spark-2.4.5-bin-hadoop2.7\bin>spark-submit --class com.pkumar.scala.spark.app.main.KumarSparkAppDemo --master local[*]  E:\developerWork\devSpark\SpringsBootScalaSparkApp\target\pkumar-scala-spark-demo-0.0.1-SNAPSHOT.jar
 20/02/20 19:36:53 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
