@@ -7,7 +7,7 @@ import org.springframework.boot.test.web.client.TestRestTemplate
 import org.springframework.test.context.junit4.SpringRunner
 import org.junit.Test
 import java.util.List
-import org.springscala.entity.Users
+import com.pkumar.scala.spring.rest.entity.Users
 import org.springframework.test.context.web.WebAppConfiguration
 import org.springframework.boot.test.context.SpringBootTest.WebEnvironment
 import org.springframework.http.HttpHeaders

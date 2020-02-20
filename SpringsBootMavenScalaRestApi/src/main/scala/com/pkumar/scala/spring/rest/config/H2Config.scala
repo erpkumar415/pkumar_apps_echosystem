@@ -1,4 +1,4 @@
-package org.springscala.config
+package com.pkumar.scala.spring.rest.config
 
 import org.springframework.context.annotation.Configuration
 import org.springframework.boot.web.servlet.ServletRegistrationBean

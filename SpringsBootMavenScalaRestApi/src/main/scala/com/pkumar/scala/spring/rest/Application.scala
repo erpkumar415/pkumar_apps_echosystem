@@ -1,4 +1,4 @@
-package org.springscala;
+package com.pkumar.scala.spring.rest;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.SpringApplication;

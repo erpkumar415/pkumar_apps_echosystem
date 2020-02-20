@@ -1,4 +1,4 @@
-package org.springscala.controllers
+package com.pkumar.scala.spring.rest.controllers
 
 import java.lang.Iterable
 import org.springframework.beans.factory.annotation.Autowired
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
-import org.springscala.entity.Users
-import org.springscala.services.UserService
+import com.pkumar.scala.spring.rest.entity.Users
+import com.pkumar.scala.spring.rest.services.UserService
 import javax.sql.DataSource
 import org.springframework.http.HttpStatus
 import org.springframework.http.HttpHeaders

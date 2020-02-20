@@ -1,4 +1,4 @@
-package org.springscala.config
+package com.pkumar.scala.spring.rest.config
 
 import org.springframework.context.annotation.Bean
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity

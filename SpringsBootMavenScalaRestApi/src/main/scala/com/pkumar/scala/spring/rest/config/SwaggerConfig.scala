@@ -1,4 +1,4 @@
-package org.springscala.config
+package com.pkumar.scala.spring.rest.config
 
 import springfox.documentation.swagger2.annotations.EnableSwagger2
 import org.springframework.context.annotation.Configuration

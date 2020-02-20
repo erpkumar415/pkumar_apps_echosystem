@@ -1,9 +1,9 @@
-package org.springscala.services
+package com.pkumar.scala.spring.rest.services
 
 import org.springframework.stereotype.Service
 import org.springframework.beans.factory.annotation.Autowired
-import org.springscala.repositories.UserRepository
-import org.springscala.entity.Users
+import com.pkumar.scala.spring.rest.repositories.UserRepository
+import com.pkumar.scala.spring.rest.entity.Users
 import java.util.List
 import java.lang.Iterable
 import org.springframework.security.access.prepost.PreAuthorize

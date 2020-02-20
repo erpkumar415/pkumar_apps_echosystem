@@ -1,4 +1,4 @@
-package org.springscala.entity
+package com.pkumar.scala.spring.rest.entity
 
 import scala.beans.BeanProperty
 import javax.persistence.Entity

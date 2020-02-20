@@ -1,7 +1,7 @@
-package org.springscala.repositories
+package com.pkumar.scala.spring.rest.repositories
 
 import org.springframework.stereotype.Repository
-import org.springscala.entity.Users
+import com.pkumar.scala.spring.rest.entity.Users
 import org.springframework.data.repository.CrudRepository
 import java.lang.Long
 
